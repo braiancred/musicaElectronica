@@ -28,7 +28,7 @@ a{
     color: black
 }
 
-ul{
+ul, nav nav-tabs{
     display: flex;
     flex-flow: row nowrap;
     list-style-type: none;
@@ -112,8 +112,6 @@ footer{
     text-align: center;
     margin-top: 10px;
     background-color:lightskyblue;
-    background: rgb(234,255,0);
-    background: linear-gradient(180deg, rgba(234,255,0,1) 0%, rgba(255,255,255,0.6558998599439776) 5%, rgba(0,212,255,1) 100%);
 }
 
 .Historia, .Festivales, .Estilo{
