@@ -17,7 +17,7 @@ header{
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     margin: 0 3px 0 3px;
-    padding: 5px;
+    padding: 2px;
     border: 2px solid black;
     border-radius: 10px;
     top: 0;
@@ -32,10 +32,10 @@ ul, nav nav-tabs{
     display: flex;
     flex-flow: row nowrap;
     list-style-type: none;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
-h1, h2, h3, h4{
+h1, h2{
     font-weight: bolder;
     font-family: 'Lato', sans-serif;
     margin: 10px;
@@ -54,9 +54,21 @@ h2{
 }
 
 h3{
-    margin: 2px;
-    border: 1px solid darkgrey;
-    padding: 2px;
+    padding: 10px;
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+    border: solid white;
+}
+
+h3:hover{
+    border: solid lightblue;
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+h4{
+    font-size: smaller;
 }
 
 p{
@@ -114,6 +126,20 @@ footer{
     background-color:lightskyblue;
 }
 
+.dropdown-item{
+    color: black;
+    font-weight: bolder;
+}
+
+.dropdown-item:hover{
+    transform: scale(1.1);
+}
+
+.transf:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
 .Historia, .Festivales, .Estilo{
     display: flex;
     flex-flow: column nowrap;
@@ -125,7 +151,7 @@ footer{
 .Formulario{
     grid-area: Formulario;
     font-family: 'Lato', sans-serif;
-    margin: 10px 5px 10px 5px;
+    margin: 10px 3px 20px 3px;
     border: 3px solid black;
     padding: 25px;
     display: flex;
@@ -135,14 +161,32 @@ footer{
 .dj, .padre, .padreH{
     display: flex;
     flex-flow: column wrap;
-    margin: 5px;
     border: 1px solid darkgray;
 }
 
+.dj{
+    padding:20px;
+}
+
+.padre{
+    padding-bottom: 40px;
+}
+
+.fest{
+    margin-bottom: 40px;
+}
+
+.transimg:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
 .padreDjs{
+    margin: 20px;
+    padding: 20px;
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
-    gap: 5px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -182,11 +226,6 @@ footer{
 .Festivales{
     grid-area: Festivales
 }
-
-.footer{
-    grid-area: footer
-}
-
 
 @media (max-width:1024px){
     .body{
