@@ -1,0 +1,23 @@
+header{
+    background: rgb(255, 255, 255);
+    background: linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.6558998599439776) 25%, rgba(209,247,255,1) 70%, rgba(0,212,255,1) 100%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin: 0 3px 0 3px;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    top: 0;
+
+    ul, nav nav-tabs{
+        display: flex;
+        flex-flow: row nowrap;
+        list-style-type: none;
+        justify-content: space-around;
+    
+        a{
+        text-decoration:none;
+        color: black}
+    }  
+}
+
