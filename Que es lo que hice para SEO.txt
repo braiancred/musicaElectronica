@@ -1,0 +1,2 @@
+Cambié los títulos de cada html, agregué los meta aprendidos en la clase, modifiqué los tamaños de las imágenes y comprimí las que eran pesadas.
+Puse bien el h1 de mi index (los de las demas secciones los consideré correctos), y los h2 en adelante también los consideré correctos. Mejoré algunos textos.
